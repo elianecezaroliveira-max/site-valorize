@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Consultoria Valorize | Empréstimo Consignado INSS, CLT, SIAPE, Forças Armadas e Servidores</title>
-<meta name="description" content="Consultoria Valorize: empréstimo consignado com as menores taxas para aposentados e pensionistas do INSS, trabalhadores CLT, servidores SIAPE, Forças Armadas, Governo e Prefeituras. Simule grátis pelo WhatsApp.">
-<meta property="og:title" content="Consultoria Valorize | Empréstimo Consignado">
+<title>Valorize Soluções Financeiras | Empréstimo Consignado INSS, CLT, SIAPE, Forças Armadas e Servidores</title>
+<meta name="description" content="Valorize Soluções Financeiras: empréstimo consignado com as menores taxas para aposentados e pensionistas do INSS, trabalhadores CLT, servidores SIAPE, Forças Armadas, Governo e Prefeituras. Simule grátis pelo WhatsApp.">
+<meta property="og:title" content="Valorize Soluções Financeiras | Empréstimo Consignado">
 <meta property="og:description" content="Crédito consignado rápido, seguro e sem burocracia. INSS, CLT, SIAPE, Forças Armadas, Governo e Prefeitura.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://consultoriavalorize.com.br/">
@@ -45,7 +45,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(62,42,30,.88);backdrop-f
 .nav{display:flex;align-items:center;justify-content:space-between;height:74px}
 .logo{display:flex;align-items:center;gap:.7rem;color:#fff;font-weight:800;font-size:1.15rem}
 .logo-mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--gold-2));display:grid;place-items:center;color:var(--navy);font-weight:800;font-size:1.3rem}
-.logo small{display:block;font-size:.7rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);line-height:1}
+.logo small{display:block;font-size:.62rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);line-height:1}
 .nav ul{display:flex;gap:2rem;list-style:none}
 .nav ul a{color:rgba(255,255,255,.85);font-weight:600;font-size:.95rem;transition:color .2s}
 .nav ul a:hover{color:var(--gold)}
@@ -62,7 +62,9 @@ header{position:sticky;top:0;z-index:50;background:rgba(62,42,30,.88);backdrop-f
 /* hero */
 .hero{position:relative;overflow:hidden;background:radial-gradient(1200px 600px at 80% -10%,#7A5238 0%,transparent 60%),radial-gradient(800px 500px at -10% 110%,#5A3B29 0%,transparent 55%),var(--navy);color:#fff;padding:6rem 0 7rem}
 .hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:48px 48px;mask-image:radial-gradient(ellipse at center,#000 30%,transparent 75%)}
-.hero .container{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+.hero .container{position:relative;max-width:820px;text-align:center}
+.hero p{margin-inline:auto}
+.hero-actions,.hero-stats{justify-content:center}
 .hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:.45rem 1rem;border-radius:999px;font-size:.85rem;font-weight:600;margin-bottom:1.5rem}
 .hero-badge span{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(34,197,94,.25)}
 .hero h1{font-size:clamp(2.2rem,5vw,3.6rem);font-weight:800;margin-bottom:1.2rem}
@@ -88,7 +90,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(62,42,30,.88);backdrop-f
 .sim-result strong{font-size:1.6rem;color:var(--navy);font-weight:800}
 .sim .btn{width:100%;justify-content:center}
 .sim small{display:block;text-align:center;color:var(--muted);font-size:.75rem;margin-top:.8rem}
-@media(max-width:900px){.hero .container{grid-template-columns:1fr}.hero{padding:4rem 0 5rem}}
+@media(max-width:900px){.hero{padding:4rem 0 5rem}}
 @media(max-width:480px){.sim{padding:1.5rem}.sim-result{flex-direction:column;align-items:flex-start;gap:.6rem}.sim-result div:last-child{text-align:left!important}.hero-stats{gap:1.5rem}}
 
 /* trust bar */
@@ -208,7 +210,7 @@ footer a:hover{color:var(--gold)}
 
 <header>
   <div class="container nav">
-    <a href="#" class="logo"><span class="logo-mark">V</span><span>Valorize<small>Consultoria</small></span></a>
+    <a href="#" class="logo"><span class="logo-mark">V</span><span>Valorize<small>Soluções Financeiras</small></span></a>
     <ul id="menu">
       <li><a href="#servicos">Serviços</a></li>
       <li><a href="#vantagens">Vantagens</a></li>
@@ -232,43 +234,12 @@ footer a:hover{color:var(--gold)}
         <a class="btn btn-ghost" href="#servicos">Ver modalidades →</a>
       </div>
       <div class="hero-stats">
-        <div><strong>+2.000</strong><span>clientes atendidos</span></div>
+        <div><strong>+5.000</strong><span>pessoas atendidas</span></div>
         <div><strong>24h</strong><span>novo contrato na conta*</span></div>
         <div><strong>+15</strong><span>bancos parceiros</span></div>
       </div>
     </div>
 
-    <div class="sim" id="simulador">
-      <h3>Simule em segundos</h3>
-      <p class="sub">Estimativa gratuita e sem compromisso. O valor final é confirmado pelo consultor.</p>
-      <div class="field">
-        <label>Você é</label>
-        <select id="sim-perfil">
-          <option value="inss">Aposentado ou pensionista do INSS</option>
-          <option value="clt">Trabalhador CLT (carteira assinada)</option>
-          <option value="siape">Servidor federal (SIAPE)</option>
-          <option value="forcas">Forças Armadas</option>
-          <option value="governo">Servidor de Governo Estadual</option>
-          <option value="prefeitura">Servidor de Prefeitura</option>
-        </select>
-      </div>
-      <div class="field">
-        <label>Quanto você precisa? <span id="sim-valor-label" style="float:right;color:var(--navy-3)">R$ 5.000</span></label>
-        <input type="range" id="sim-valor" min="500" max="100000" step="500" value="5000">
-        <div class="range-row"><span>R$ 500</span><span>R$ 100.000</span></div>
-      </div>
-      <div class="field">
-        <label>Em quantas parcelas? <span id="sim-prazo-label" style="float:right;color:var(--navy-3)">84x</span></label>
-        <input type="range" id="sim-prazo" min="12" max="108" step="12" value="84">
-        <div class="range-row"><span>12x</span><span id="sim-prazo-max">108x</span></div>
-      </div>
-      <div class="sim-result">
-        <div><span>Parcela estimada</span><br><strong id="sim-parcela">R$ 0,00</strong></div>
-        <div style="text-align:right"><span>Taxa a partir de</span><br><strong id="sim-taxa" style="font-size:1.1rem">1,66% a.m.</strong></div>
-      </div>
-      <button class="btn btn-wa" id="sim-btn">Solicitar essa proposta no WhatsApp</button>
-      <small>*Valores ilustrativos. Sujeito à análise de margem consignável e política de cada banco.</small>
-    </div>
   </div>
 </section>
 
@@ -332,7 +303,7 @@ footer a:hover{color:var(--gold)}
     </div>
     <div class="visual reveal">
       <div class="chat">
-        <div class="chat-head"><div class="av">V</div><div><strong>Consultoria Valorize</strong><span>● online agora</span></div></div>
+        <div class="chat-head"><div class="av">V</div><div><strong>Valorize Soluções Financeiras</strong><span>● online agora</span></div></div>
         <div class="bubble out">Boa tarde! Sou aposentada do INSS e queria simular R$ 8.000.</div>
         <div class="bubble in">Boa tarde! Claro 😊 Em 84x fica a partir de R$ 176/mês. Posso conferir a melhor taxa pra você agora mesmo?</div>
         <div class="bubble out">Pode sim! Que rápido 🙏</div>
@@ -393,13 +364,10 @@ footer a:hover{color:var(--gold)}
         <div class="field"><label>Nome</label><input required name="nome" placeholder="Seu nome completo"></div>
         <div class="field"><label>WhatsApp</label><input required name="tel" placeholder="(00) 00000-0000" inputmode="tel"></div>
       </div>
-      <div class="row">
-        <div class="field"><label>Perfil</label><select name="perfil"><option>INSS</option><option>CLT</option><option>SIAPE</option><option>Forças Armadas</option><option>Governo Estadual</option><option>Prefeitura</option></select></div>
-        <div class="field"><label>Valor desejado</label><input name="valor" placeholder="R$ 5.000" inputmode="numeric"></div>
-      </div>
+      <div class="field"><label>Perfil</label><select name="perfil"><option>INSS</option><option>CLT</option><option>SIAPE</option><option>Forças Armadas</option><option>Governo Estadual</option><option>Prefeitura</option></select></div>
       <div class="field"><label>Mensagem (opcional)</label><textarea name="msg" placeholder="Conte um pouco do que precisa..."></textarea></div>
       <button class="btn btn-wa" type="submit">Enviar pelo WhatsApp</button>
-      <small>Ao enviar, você concorda em ser contatado pela Consultoria Valorize. Seus dados estão protegidos pela LGPD.</small>
+      <small>Ao enviar, você concorda em ser contatado pela Valorize Soluções Financeiras. Seus dados estão protegidos pela LGPD.</small>
     </form>
   </div>
 </section>
@@ -416,7 +384,7 @@ footer a:hover{color:var(--gold)}
   <div class="container">
     <div class="cols">
       <div>
-        <a href="#" class="logo"><span class="logo-mark">V</span><span>Valorize<small>Consultoria</small></span></a>
+        <a href="#" class="logo"><span class="logo-mark">V</span><span>Valorize<small>Soluções Financeiras</small></span></a>
         <p style="margin-top:1rem;max-width:320px">Consultoria especializada em crédito consignado. Correspondente bancário de instituições autorizadas pelo Banco Central do Brasil.</p>
         <div class="social">
           <a data-insta href="#" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
@@ -429,8 +397,8 @@ footer a:hover{color:var(--gold)}
       <div><h4>Contato</h4><ul><li><a data-wa data-msg="Olá!" data-show-phone href="#"></a></li><li><a data-email href="#"></a></li><li><span data-address></span></li><li><span data-cnpj></span></li></ul></div>
     </div>
     <div class="legal">
-      <p>© <span id="ano"></span> Consultoria Valorize. Todos os direitos reservados.</p>
-      <p>A Consultoria Valorize atua como correspondente bancário nos termos da Resolução CMN nº 4.935/2021, intermediando propostas de crédito consignado junto a instituições financeiras autorizadas pelo Banco Central do Brasil. Não realizamos empréstimos com recursos próprios e não cobramos qualquer valor antecipado. Taxas, prazos e valores estão sujeitos à análise e à política de crédito de cada instituição. Exemplo: R$ 5.000 em 84x com taxa de 1,66% a.m. (21,84% a.a.) — CET aproximado 1,80% a.m. Simulações são ilustrativas. Novo contrato: crédito em até 24h após averbação; portabilidade com refinanciamento: até 7 dias úteis.</p>
+      <p>© <span id="ano"></span> Valorize Soluções Financeiras. Todos os direitos reservados.</p>
+      <p>A Valorize Soluções Financeiras atua como correspondente bancário nos termos da Resolução CMN nº 4.935/2021, intermediando propostas de crédito consignado junto a instituições financeiras autorizadas pelo Banco Central do Brasil. Não realizamos empréstimos com recursos próprios e não cobramos qualquer valor antecipado. Taxas, prazos e valores estão sujeitos à análise e à política de crédito de cada instituição. Exemplo: R$ 5.000 em 84x com taxa de 1,66% a.m. (21,84% a.a.) — CET aproximado 1,80% a.m. Simulações são ilustrativas. Novo contrato: crédito em até 24h após averbação; portabilidade com refinanciamento: até 7 dias úteis.</p>
     </div>
   </div>
 </footer>
@@ -470,32 +438,11 @@ const menu=document.getElementById('menu');
 document.getElementById('burger').onclick=()=>menu.classList.toggle('open');
 menu.querySelectorAll('a').forEach(a=>a.onclick=()=>menu.classList.remove('open'));
 
-// Simulador (estimativa - tabela Price)
-const TAXAS={inss:1.66,clt:2.90,siape:1.55,forcas:1.60,governo:1.75,prefeitura:1.85};
-const PRAZOS={inss:108,clt:96,siape:120,forcas:96,governo:96,prefeitura:96}; // prazo máximo por convênio
-const brl=v=>v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
-const perfil=document.getElementById('sim-perfil'),valor=document.getElementById('sim-valor'),prazo=document.getElementById('sim-prazo');
-function simular(){
-  const max=PRAZOS[perfil.value];prazo.max=max;if(+prazo.value>max)prazo.value=max;document.getElementById('sim-prazo-max').textContent=max+'x';
-  const P=+valor.value,n=+prazo.value,i=TAXAS[perfil.value]/100;
-  const parcela=P*i/(1-Math.pow(1+i,-n));
-  document.getElementById('sim-valor-label').textContent=brl(P).replace(',00','');
-  document.getElementById('sim-prazo-label').textContent=n+'x';
-  document.getElementById('sim-parcela').textContent=brl(parcela);
-  document.getElementById('sim-taxa').textContent=TAXAS[perfil.value].toFixed(2).replace('.',',')+'% a.m.';
-  return {P,n,parcela};
-}
-[perfil,valor,prazo].forEach(el=>el.addEventListener('input',simular));simular();
-document.getElementById('sim-btn').onclick=()=>{
-  const {P,n,parcela}=simular();
-  const txt=perfil.options[perfil.selectedIndex].text;
-  window.open(waLink(`Olá! Fiz uma simulação no site:\n• Perfil: ${txt}\n• Valor: ${brl(P)}\n• Prazo: ${n}x\n• Parcela estimada: ${brl(parcela)}\nPodem me enviar a proposta?`),'_blank');
-};
 
 // Formulário -> WhatsApp
 document.getElementById('lead-form').addEventListener('submit',e=>{
   e.preventDefault();const f=new FormData(e.target);
-  const msg=`Olá! Quero uma simulação.\n• Nome: ${f.get('nome')}\n• WhatsApp: ${f.get('tel')}\n• Perfil: ${f.get('perfil')}\n• Valor: ${f.get('valor')||'a combinar'}\n${f.get('msg')?'• Obs: '+f.get('msg'):''}`;
+  const msg=`Olá! Quero uma simulação.\n• Nome: ${f.get('nome')}\n• WhatsApp: ${f.get('tel')}\n• Perfil: ${f.get('perfil')}\n${f.get('msg')?'• Obs: '+f.get('msg'):''}`;
   window.open(waLink(msg),'_blank');
 });
 
