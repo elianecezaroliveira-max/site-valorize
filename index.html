@@ -9,16 +9,16 @@
 <meta property="og:description" content="Crédito consignado rápido, seguro e sem burocracia. INSS, CLT, SIAPE, Forças Armadas, Governo e Prefeitura.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://consultoriavalorize.com.br/">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230B1F3A'/><path d='M16 20 L32 46 L48 20' stroke='%23F5B942' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%233E2A1E'/><path d='M16 20 L32 46 L48 20' stroke='%23D9B48F' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --navy:#0B1F3A; --navy-2:#122C52; --navy-3:#1B3B6B;
-  --gold:#F5B942; --gold-2:#FFD27A; --green:#22C55E; --wa:#25D366;
-  --ink:#0F172A; --muted:#5B6B82; --line:#E6EAF1; --bg:#F6F8FB; --white:#fff;
-  --radius:20px; --shadow:0 20px 50px -20px rgba(11,31,58,.35);
+  --navy:#3E2A1E; --navy-2:#4F362A; --navy-3:#6B4A35;
+  --gold:#D9B48F; --gold-2:#EAD3B4; --green:#22C55E; --wa:#25D366;
+  --ink:#2B1D14; --muted:#7A6657; --line:#EAE0D5; --bg:#F8F3EC; --white:#fff;
+  --radius:20px; --shadow:0 20px 50px -20px rgba(62,42,30,.35);
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -28,11 +28,11 @@ img{max-width:100%;display:block}
 .container{width:min(1140px,92%);margin-inline:auto}
 .btn{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.5rem;border-radius:999px;font-weight:700;font-size:1rem;border:0;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s}
 .btn:hover{transform:translateY(-2px)}
-.btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold-2));color:var(--navy);box-shadow:0 12px 30px -10px rgba(245,185,66,.7)}
+.btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold-2));color:var(--navy);box-shadow:0 12px 30px -10px rgba(217,180,143,.7)}
 .btn-wa{background:var(--wa);color:#fff;box-shadow:0 12px 30px -10px rgba(37,211,102,.7)}
 .btn-ghost{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px)}
 .btn-outline{background:transparent;color:var(--navy);border:2px solid var(--navy)}
-.eyebrow{display:inline-block;font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--navy-3);background:rgba(27,59,107,.08);padding:.4rem .9rem;border-radius:999px;margin-bottom:1rem}
+.eyebrow{display:inline-block;font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--navy-3);background:rgba(107,74,53,.10);padding:.4rem .9rem;border-radius:999px;margin-bottom:1rem}
 h1,h2,h3{line-height:1.15;letter-spacing:-.02em}
 h2{font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:800;color:var(--navy)}
 .section{padding:5.5rem 0}
@@ -41,7 +41,7 @@ h2{font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:800;color:var(--navy)}
 .ico{font-size:1.1rem}
 
 /* header */
-header{position:sticky;top:0;z-index:50;background:rgba(11,31,58,.85);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
+header{position:sticky;top:0;z-index:50;background:rgba(62,42,30,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:74px}
 .logo{display:flex;align-items:center;gap:.7rem;color:#fff;font-weight:800;font-size:1.15rem}
 .logo-mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--gold-2));display:grid;place-items:center;color:var(--navy);font-weight:800;font-size:1.3rem}
@@ -60,7 +60,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(11,31,58,.85);backdrop-f
 }
 
 /* hero */
-.hero{position:relative;overflow:hidden;background:radial-gradient(1200px 600px at 80% -10%,#1E4A85 0%,transparent 60%),radial-gradient(800px 500px at -10% 110%,#173a68 0%,transparent 55%),var(--navy);color:#fff;padding:6rem 0 7rem}
+.hero{position:relative;overflow:hidden;background:radial-gradient(1200px 600px at 80% -10%,#7A5238 0%,transparent 60%),radial-gradient(800px 500px at -10% 110%,#5A3B29 0%,transparent 55%),var(--navy);color:#fff;padding:6rem 0 7rem}
 .hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:48px 48px;mask-image:radial-gradient(ellipse at center,#000 30%,transparent 75%)}
 .hero .container{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
 .hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:.45rem 1rem;border-radius:999px;font-size:.85rem;font-weight:600;margin-bottom:1.5rem}
@@ -74,13 +74,13 @@ header{position:sticky;top:0;z-index:50;background:rgba(11,31,58,.85);backdrop-f
 .hero-stats span{font-size:.85rem;color:rgba(255,255,255,.7)}
 /* simulator card */
 .sim{background:#fff;color:var(--ink);border-radius:28px;padding:2rem;box-shadow:0 40px 80px -30px rgba(0,0,0,.6);position:relative}
-.sim::after{content:"";position:absolute;inset:-2px;border-radius:30px;background:linear-gradient(135deg,var(--gold),transparent 40%,transparent 60%,#3B82F6);z-index:-1;opacity:.7}
+.sim::after{content:"";position:absolute;inset:-2px;border-radius:30px;background:linear-gradient(135deg,var(--gold),transparent 40%,transparent 60%,#B98B65);z-index:-1;opacity:.7}
 .sim h3{font-size:1.25rem;color:var(--navy);margin-bottom:.3rem}
 .sim p.sub{font-size:.9rem;color:var(--muted);margin-bottom:1.3rem}
 .field{margin-bottom:1rem}
 .field label{display:block;font-size:.85rem;font-weight:700;color:var(--navy);margin-bottom:.4rem}
 .field input,.field select{width:100%;padding:.85rem 1rem;border:1.5px solid var(--line);border-radius:12px;font:inherit;font-size:1rem;background:var(--bg);transition:border .2s,box-shadow .2s}
-.field input:focus,.field select:focus{outline:0;border-color:var(--navy-3);box-shadow:0 0 0 4px rgba(27,59,107,.12);background:#fff}
+.field input:focus,.field select:focus{outline:0;border-color:var(--navy-3);box-shadow:0 0 0 4px rgba(107,74,53,.15);background:#fff}
 .field input[type=range]{padding:0;background:transparent;accent-color:var(--navy-3)}
 .range-row{display:flex;justify-content:space-between;font-size:.85rem;color:var(--muted);margin-top:.3rem}
 .sim-result{background:var(--bg);border-radius:16px;padding:1rem 1.2rem;margin:1.2rem 0;display:flex;justify-content:space-between;align-items:center}
@@ -129,7 +129,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(11,31,58,.85);backdrop-f
 .step p{color:var(--muted)}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
 @media(max-width:900px){.split{grid-template-columns:1fr;gap:2.5rem}}
-.split .visual{background:linear-gradient(160deg,var(--bg),#E9EEF6);border-radius:28px;padding:2.5rem;position:relative}
+.split .visual{background:linear-gradient(160deg,var(--bg),#EFE3D3);border-radius:28px;padding:2.5rem;position:relative}
 .chat{background:#fff;border-radius:18px;padding:1.2rem;box-shadow:var(--shadow);max-width:340px;margin:0 auto}
 .bubble{padding:.7rem 1rem;border-radius:14px;font-size:.9rem;margin-bottom:.6rem;max-width:85%}
 .bubble.in{background:var(--bg);color:var(--ink);border-bottom-left-radius:4px}
@@ -170,14 +170,14 @@ details p{padding:0 0 1.2rem;color:var(--muted)}
 .form .row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
 @media(max-width:600px){.form .row{grid-template-columns:1fr}}
 .form textarea{width:100%;padding:.85rem 1rem;border:1.5px solid var(--line);border-radius:12px;font:inherit;background:var(--bg);min-height:100px;resize:vertical}
-.form textarea:focus{outline:0;border-color:var(--navy-3);box-shadow:0 0 0 4px rgba(27,59,107,.12);background:#fff}
+.form textarea:focus{outline:0;border-color:var(--navy-3);box-shadow:0 0 0 4px rgba(107,74,53,.15);background:#fff}
 .form .btn{width:100%;justify-content:center;margin-top:.5rem}
 .form small{display:block;color:var(--muted);text-align:center;font-size:.75rem;margin-top:.8rem}
 
 /* cta */
 .cta{background:linear-gradient(135deg,var(--gold),var(--gold-2));color:var(--navy);text-align:center;padding:4.5rem 0}
 .cta h2{color:var(--navy);margin-bottom:.8rem}
-.cta p{font-size:1.1rem;margin-bottom:2rem;color:rgba(11,31,58,.8)}
+.cta p{font-size:1.1rem;margin-bottom:2rem;color:rgba(62,42,30,.85)}
 .cta .btn{background:var(--navy);color:#fff}
 
 /* footer */
@@ -302,7 +302,7 @@ footer a:hover{color:var(--gold)}
 <section class="section why" id="vantagens">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow" style="background:rgba(245,185,66,.15);color:var(--gold)">Por que a Valorize</span>
+      <span class="eyebrow" style="background:rgba(217,180,143,.2);color:var(--gold)">Por que a Valorize</span>
       <h2>Mais que um empréstimo: uma consultoria de verdade</h2>
       <p>Comparamos as ofertas de vários bancos e explicamos tudo em linguagem simples, para você decidir com segurança.</p>
     </div>
